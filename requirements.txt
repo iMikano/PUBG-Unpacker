@@ -1,0 +1,6 @@
+# PUBG Mobile PAK Unpacker Dependencies
+# Install with: pip install -r requirements.txt
+
+pycryptodome>=3.18.0    # AES encryption, SHA1, RSA
+zstandard>=0.21.0       # ZSTD decompression
+gmalg>=0.1.0            # ZUC stream cipher (Chinese crypto standard)
